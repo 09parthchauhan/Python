@@ -22,4 +22,3 @@ name = "parth"
 
 msg = f'{greeting} {name}'
 print(msg)
-
