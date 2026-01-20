@@ -9,5 +9,3 @@ print(index)
 print(test)
 
 print(sys.path)
-
-
