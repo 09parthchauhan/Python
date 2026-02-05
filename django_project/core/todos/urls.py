@@ -8,7 +8,8 @@ urlpatterns = [
     path('special', views.special_view, name="special_view"),
     path('helloquery', views.hello_query, name="hello_query"),
     path('helloname/<str:name>', views.hello_path, name="hello_name"),
-
+    path('postendpoint', views.post_example, name="post"),
+    path('profile/<str:name>/<int:age>', views.profile, name="profile"),
 ]
 
 
