@@ -21,7 +21,7 @@ subjects = ['frontend', 'maths']
 courses.extend(subjects)
 print(courses)
 
-#remove items
+#remove items:5
 courses.remove('frontend')
 print(courses)
 

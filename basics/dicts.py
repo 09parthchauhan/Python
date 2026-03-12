@@ -4,7 +4,7 @@ student = {'name' : 'parth',
            }
 print(student['name'])
 
-#print(student.get('age'))
+print(student.get('age'))
 #print(student.get('phone', '"Not found"'))
 print(student.items())
 

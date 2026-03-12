@@ -27,10 +27,9 @@ def post_example(request):
     if request.method == 'POST':
         name = request.POST.get('name')
         age  = request.POST.get('age')
-
         return HttpResponse(f'you posted: {name}, {age}')
     else:
-        return HttpResponseNotAllowed('POSt')
+        return HttpResponseNotAllowed('POST')
 
 def submit(request):
     return render(request, 'todos/submit.html')
