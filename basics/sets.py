@@ -20,3 +20,5 @@ print(type(s))
 s3 = {1,2,1,2,4,5,4}
 print(s3)
 
+new_set ={"hello", 22, 24, True}
+print(new_set)
